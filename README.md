@@ -1,21 +1,27 @@
-# colouris
+# Colouris 🎨
+Quick color mode conversion tool.
 
-> Quick color mode conversion tool.
 
-## Build Setup
-
+## Instal & develop
 ``` bash
-# install dependencies
-npm install
+yarn
+npm run dev  # Colouris is now running with hot reload at http://localhost:8080
+```
 
-# serve with hot reload at localhost:8080
-npm run dev
 
+## Build & deploy
+``` bash
 # build for production with minification
 npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+
+# check package.json for more actions
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## Tools
+- [vuejs-templates/webpack](https://github.com/vuejs-templates/webpack)
+- [favicon.io](https://favicon.io/emoji-favicons/)
+- [surge.sh](http://surge.sh/)
