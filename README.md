@@ -4,7 +4,7 @@ Quick color mode conversion tool.
 
 ## Instal & develop
 ``` bash
-yarn
+npm install
 npm run dev  # Colouris is now running with hot reload at http://localhost:8080
 ```
 
