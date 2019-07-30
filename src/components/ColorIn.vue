@@ -5,6 +5,7 @@
         Write/paste your color here
       </label>
       <input id="color-in" type=text class="color-in__input" autofocus
+             placeholder="Place a colour here"
              v-model="color" @keyup="colorIn"
              :style="{ 'background-color': backgroundColor,
                        color: foregroundColor }" />
@@ -79,10 +80,10 @@ export default {
   transition: color, background-color 500ms ease-out;
 }
 
-.color-in__input::-webkit-input-placeholder { color: darkgray; }
-.color-in__input::-moz-placeholder          { color: darkgray; }
-.color-in__input:-ms-input-placeholder      { color: darkgray; }
-.color-in__input:-moz-placeholder           { color: darkgray; }
+.color-in__input::-webkit-input-placeholder { color: lightgray; }
+.color-in__input::-moz-placeholder          { color: lightgray; }
+.color-in__input:-ms-input-placeholder      { color: lightgray; }
+.color-in__input:-moz-placeholder           { color: lightgray; }
 
 .color-in__valid {
   position: absolute;
